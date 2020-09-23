@@ -34,9 +34,9 @@ namespace IRK.Unity3D.CreatorScript
 
             _contentLable = new GUIContent("Items");
             _contentAddButton = new GUIContent("Add");
-            _contentRemove = new GUIContent((Texture)AssetDatabase.LoadAssetAtPath("Assets/CreatorScript/Icons/Remove.png", typeof(Texture)));
-            _contentUp = new GUIContent((Texture)AssetDatabase.LoadAssetAtPath("Assets/CreatorScript/Icons/Up.png", typeof(Texture)));
-            _contentDown = new GUIContent((Texture)AssetDatabase.LoadAssetAtPath("Assets/CreatorScript/Icons/Down.png", typeof(Texture)));
+            _contentRemove = new GUIContent((Texture)AssetDatabase.LoadAssetAtPath("Assets/CreatorScript/Editor/Icons/Remove.png", typeof(Texture)));
+            _contentUp = new GUIContent((Texture)AssetDatabase.LoadAssetAtPath("Assets/CreatorScript/Editor/Icons/Up.png", typeof(Texture)));
+            _contentDown = new GUIContent((Texture)AssetDatabase.LoadAssetAtPath("Assets/CreatorScript/Editor/Icons/Down.png", typeof(Texture)));
         }
 
         public T this[int index]
