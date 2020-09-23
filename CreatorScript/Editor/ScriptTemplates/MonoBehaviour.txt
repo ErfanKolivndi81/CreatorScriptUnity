@@ -1,0 +1,16 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+?$access$ class $name$ : MonoBehaviour
+{
+    $methods$
+}
+
+?namespace $name_namespace$
+{
+    $access$ class $name$ : MonoBehaviour
+    {
+        $methods$
+    }
+}

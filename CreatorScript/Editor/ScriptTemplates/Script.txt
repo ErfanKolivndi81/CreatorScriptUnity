@@ -1,0 +1,16 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+?$access$ $type$ $name$ $name_base$
+{
+	$methods$
+}
+
+?namespace $name_namespace$
+{
+	$access$ $type$ $name$ $name_base$
+	{
+		$methods$
+	}
+}

@@ -1,0 +1,34 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEditor;
+
+?$access$ class $name$ : EditorWindow
+{
+    [MenuItem("Window/$name$")]
+    public static void ShowWindow()
+    {
+        $name_class$ win = GetWindow<$name$>();
+        win.titleContent = new GUIContent("$name_class$");
+        win.Show();
+    } 
+    
+    $methods$
+
+}
+
+?namespace $name_namespace$
+{
+	$access$ class $name$ : EditorWindow
+	{
+	    [MenuItem("Window/$name$")]
+        public static void ShowWindow()
+        {
+            $name_class$ win = GetWindow<$name$>();
+            win.titleContent = new GUIContent("$name_class$");
+            win.Show();
+        }
+
+        $methods$
+	}
+}

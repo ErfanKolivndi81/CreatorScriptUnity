@@ -1,0 +1,29 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEditor;
+
+?[CustomEditor(typeof($customEditor$))]
+$access$ class $name$ : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        base.OnInspectorGUI();
+    }
+
+    $methods$
+}
+
+?namespace $name_namespace$
+{
+    [CustomEditor(typeof($customEditor$))]
+    $access$ class $name$ : Editor
+    {
+        public override void OnInspectorGUI()
+        {
+            base.OnInspectorGUI();
+        }
+
+        $methods$
+    }
+}

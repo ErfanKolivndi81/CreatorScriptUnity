@@ -1,0 +1,12 @@
+﻿?$access$ enum $name$
+{
+	$items$
+}
+
+?namespace $name_namespace$
+{
+	$access$ enum $name$
+	{
+		$items$
+	}
+}
