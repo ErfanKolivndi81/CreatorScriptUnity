@@ -2,9 +2,7 @@
     "name": "IRK.Unity3D.CreatorScript",
     "references": [],
     "includePlatforms": [],
-    "excludePlatforms": [
-        "Editor"
-    ],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
