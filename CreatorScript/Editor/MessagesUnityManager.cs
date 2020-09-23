@@ -25,6 +25,8 @@ namespace IRK.Unity3D.CreatorScript
                 _groupItems[index++] = new AdvancedDropdownItem(item);
             }
 
+            CreateMethods();
+
             foreach (var item in _messagesUnity)
             {
                 _groupItems[item.indexGroup].AddChild(new AdvancedDropdownItem(item.lable));
@@ -35,8 +37,6 @@ namespace IRK.Unity3D.CreatorScript
 
             _messages.onAddButton = OnAddButton;
             _messages.GUIItem = GUIItem;
-
-            CreateMethods();
         }
 
         protected override AdvancedDropdownItem BuildRoot()
