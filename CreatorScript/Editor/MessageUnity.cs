@@ -64,7 +64,6 @@ namespace IRK.Unity3D.CreatorScript
 
             result.AppendLine(")");
             result.AppendLine("\t{");
-            result.AppendLine("\tDebug.Log(\""+_key+"\");");
             result.AppendLine("\t}");
 
             _code = result.ToString();
