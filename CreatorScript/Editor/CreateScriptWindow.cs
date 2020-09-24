@@ -207,7 +207,7 @@ namespace IRK.Unity3D.CreatorScript
                 baseClass: _base,
                 customEditor: _customEditor,
                 access: _access,
-                messages: _messagesUnity._messagesUnity.ToArray(),
+                messages: _messagesUnity.listView.items,
                 itemsEnum: _itemsEnumManager.listView.items
                 );
 
