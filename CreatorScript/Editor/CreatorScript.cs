@@ -6,7 +6,7 @@ namespace IRK.Unity3D.CreatorScript
 {
     public static class CreatorScriptUtitlity
     {
-        public const string pathTemplateFolder = "Assets/CreatorScript/ScriptTemplates/";
+        public const string pathTemplateFolder = "Assets/CreatorScript/Editor/ScriptTemplates/";
 
         public const string templateTypeScript = "$type$";
         public const string templateNamespace = "$name_namespace$";
